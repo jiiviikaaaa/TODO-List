@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <style>
+      .cshadow{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+    </style>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -125,8 +130,8 @@
           <textarea class="form-control" id="description" rows="3"> </textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary" id="add">Add to List</button>
-        <button type="submit" class="btn btn-primary" id="clear" onclick="clearstr()">Clear List</button>
+        <button type="submit" class="btn btn-primary cshadow" id="add">Add to List</button>
+        <button type="submit" class="btn btn-primary cshadow" id="clear" onclick="clearstr()">Clear List</button>
       
       <div id="items" class="my-4">
         <h2>Your Items</h2>
@@ -145,7 +150,7 @@
                 <th scope="row">1</th>
                 <td> Binge Naruto </td>
                 <td>Get some snacks and water, dim the lights, keep the A.C. at a sweet temperature; Now you are ready to dive!</td>
-                <td> <button class="btn btn-sm btn-primary">Delete</button> </td>
+                <td> <button class="btn btn-sm btn-primary cshadow">Delete</button> </td>
                 
               </tr>
               
